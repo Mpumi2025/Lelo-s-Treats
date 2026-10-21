@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fffaf5">
+    <meta
+      name="description"
+      content="Lelo's Treats makes cakes, cupcakes, and sweet treats for life's special moments."
+    >
+    <title>Lelo's Treats | Cakes & Sweet Moments</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Lelo's Treats home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span>Lelo's <span class="brand-accent">Treats</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#treats">Our treats</a>
+        <a href="#about">Our story</a>
+        <a class="nav-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A little sweetness goes a long way</p>
+          <h1>Made to make<br>your day <em> sweeter.</em></h1>
+          <p class="hero-description">
+            Cakes, cupcakes and feel-good treats for the moments worth celebrating
+            — and the little ones that just need a treat.
+          </p>
+          <a class="button button-dark" href="#treats">Find your favourite <span aria-hidden="true">↓</span></a>
+          <div class="hero-note">
+            <span class="note-star" aria-hidden="true">✳</span>
+            <span>Handmade with care<br>and a sprinkle of joy</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of a decorated cake with strawberries">
+          <div class="sunburst" aria-hidden="true"></div>
+          <div class="art-label">Baked<br>with love</div>
+          <svg class="cake-illustration" viewBox="0 0 520 440" role="img" aria-labelledby="cake-title">
+            <title id="cake-title">A pink cake topped with strawberries and cream</title>
+            <ellipse cx="263" cy="370" rx="198" ry="28" fill="#e8cbb7"/>
+            <path d="M91 241c0-15 76-28 170-28s170 13 170 28v91c0 16-76 29-170 29S91 348 91 332z" fill="#df8492"/>
+            <ellipse cx="261" cy="241" rx="170" ry="29" fill="#fff0df"/>
+            <path d="M91 259c0 16 76 29 170 29s170-13 170-29" fill="none" stroke="#f4c7b9" stroke-width="8"/>
+            <path d="M111 314c12 14 27 14 39 0s27-14 39 0 27 14 39 0 27-14 39 0 27 14 39 0 27-14 39 0 27 14 39 0 27-14 39 0 27 14 39 0" fill="none" stroke="#f8d9c7" stroke-linecap="round" stroke-width="8"/>
+            <path d="M202 214c-6-25 5-52 27-52 15 0 23 12 27 25 5-18 16-30 32-27 23 4 25 34 13 56" fill="#fffaf5"/>
+            <path d="M206 188c-13-12-8-34 6-39 11-4 21 5 24 18 2-15 15-26 27-20 13 6 13 27 2 40" fill="#fffaf5"/>
+            <path d="M181 207c-6-13 1-25 12-27 12-2 21 10 18 22-9 7-20 9-30 5" fill="#d95869"/>
+            <path d="M180 207c9-12 17-19 27-24" fill="none" stroke="#f39a98" stroke-linecap="round" stroke-width="3"/>
+            <path d="M308 207c-7-14 0-28 12-29 13-2 22 12 17 24-9 6-19 8-29 5" fill="#d95869"/>
+            <path d="M307 207c9-12 18-20 28-25" fill="none" stroke="#f39a98" stroke-linecap="round" stroke-width="3"/>
+            <circle cx="147" cy="278" r="5" fill="#fff0df"/>
+            <circle cx="202" cy="269" r="5" fill="#fff0df"/>
+            <circle cx="258" cy="279" r="5" fill="#fff0df"/>
+            <circle cx="316" cy="269" r="5" fill="#fff0df"/>
+            <circle cx="371" cy="279" r="5" fill="#fff0df"/>
+            <path d="M121 106c10-18 31-18 41 0-10 18-31 18-41 0zm35 0c10-18 31-18 41 0-10 18-31 18-41 0z" fill="#73906e"/>
+            <path d="M140 107c4-9 9-16 16-22" fill="none" stroke="#4b6b4d" stroke-linecap="round" stroke-width="3"/>
+            <path d="M387 158c6-17 23-19 33-7 10-12 27-10 33 7-7 15-20 21-33 20-13 1-26-5-33-20z" fill="#73906e"/>
+            <path d="M420 169c0-11-3-18-9-25m9 25c2-10 8-17 16-22" fill="none" stroke="#4b6b4d" stroke-linecap="round" stroke-width="3"/>
+            <path d="M131 174l7-12 7 12-7 12zm240-54l5-9 5 9-5 9z" fill="#e9b452"/>
+          </svg>
+          <div class="hero-caption">A sweet moment,<br>made just for you.</div>
+        </div>
+      </section>
+
+      <div class="ticker" aria-label="Made with love, shared with joy">
+        <div class="ticker-track" aria-hidden="true">
+          <span>Made with love</span><b>✳</b><span>Shared with joy</span><b>✳</b>
+          <span>Made with love</span><b>✳</b><span>Shared with joy</span><b>✳</b>
+          <span>Made with love</span><b>✳</b><span>Shared with joy</span><b>✳</b>
+        </div>
+      </div>
+
+      <section class="treats section-wrap" id="treats">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> The good stuff</p>
+            <h2>A treat for <em>every</em> occasion.</h2>
+          </div>
+          <p class="section-intro">From the big celebrations to the “just because” days, there's always room for something sweet.</p>
+        </div>
+        <div class="treat-grid">
+          <article class="treat-card treat-card-pink">
+            <div class="treat-number">01 / THE SHOWSTOPPER</div>
+            <div class="treat-icon cake-icon" aria-hidden="true"><span></span><i></i></div>
+            <h3>Celebration cakes</h3>
+            <p>A centrepiece made for birthdays, milestones and all your once-in-a-while moments.</p>
+            <a href="#contact" class="text-link">Let's make it special <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="treat-card treat-card-yellow">
+            <div class="treat-number">02 / LITTLE JOYS</div>
+            <div class="treat-icon cupcake-icon" aria-hidden="true"><span></span><i></i></div>
+            <h3>Cupcakes</h3>
+            <p>Soft, fluffy and topped with a swirl of something lovely. Perfect for sharing (or not).</p>
+            <a href="#contact" class="text-link">Pick your favourites <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="treat-card treat-card-green">
+            <div class="treat-number">03 / THE SWEET BOX</div>
+            <div class="treat-icon cookie-icon" aria-hidden="true"><span></span><i></i></div>
+            <h3>Sweet treat boxes</h3>
+            <p>A little collection of baked happiness, ready to brighten someone's day.</p>
+            <a href="#contact" class="text-link">Send a little joy <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-art" aria-hidden="true">
+          <div class="about-circle"></div>
+          <div class="flower flower-one">✿</div>
+          <div class="flower flower-two">✿</div>
+          <div class="about-badge">a little<br>love in<br>every bite</div>
+          <div class="about-cookie"><span></span><i></i><b></b><em></em></div>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A little about us</p>
+          <h2>Sweet things,<br>made <em>with heart.</em></h2>
+          <p>
+            At Lelo's Treats, every bake is made to bring people together.
+            Whether it's a cake for a big day or a box of something sweet to
+            share, the best ingredient is always a little love.
+          </p>
+          <a class="button button-outline" href="#contact">Say hello <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="contact section-wrap" id="contact">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Let's make something sweet</p>
+        <h2>Have a sweet idea?<br><em>We'd love to hear it.</em></h2>
+        <p class="contact-copy">Get in touch to ask about treats and orders.</p>
+        <p class="contact-note">Add your preferred contact details here before sharing the website.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#home">
+        <span class="brand-mark" aria-hidden="true">L</span>
+        <span>Lelo's <span class="brand-accent">Treats</span></span>
+      </a>
+      <p>Made with a little extra love. <span aria-hidden="true">✳</span></p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </footer>
+  </body>
+</html>

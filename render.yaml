@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: lelos-treats
+    runtime: static
+    buildCommand: echo "Static site ready"
+    staticPublishPath: .
